@@ -1,0 +1,118 @@
+.header-logo img{
+    height: 83px;
+}
+.tm-about-text img {
+    height: 115px;
+}
+.widgets-footercontact .address{
+	display:none;
+}
+.contact_email a, .contact_email a:hover {
+    overflow-wrap: normal;
+}
+body .static-inner {
+    margin: 0 0 10px 0;
+}
+body .text2.static-text{
+	 margin:0;
+}
+.comment-content img[height], .entry-content img, .entry-summary img, img[class*="align"], img[class*="wp-image-"], img[class*="attachment-"], #site-header img{
+	max-width: 93%;
+	float:left;
+}
+.static-wrapper{
+	float:left;
+}
+.header-contact .icon-image{
+	display:none;
+}
+.wpb_gallery_slides img{
+	max-width: 100%;	
+}
+.header-contact .text-contact{
+	   padding-top: 15px;
+}
+#horizontalTab .resp-tabs-list, #categorytab .resp-tabs-list{
+	right:0;
+}
+.service-list.style-1 .service-content{
+	margin-left:20px;
+}
+.tm-newsletter-title{
+	padding-top: 12px;
+}
+.home-category-section{
+	display:none;
+}
+.service-list.style-1 .icon-image {
+    background-image: url(http://timparker.aicstagingserver.com/wp-content/uploads/2018/10/imgpsh_fullsize.jpg);
+}
+.service-list.service-2.style-1 .icon-image {
+    background-position: center -600px;
+}
+.service-list.service-2.style-1:hover .icon-image {
+    background-position: center -694px;
+}
+.site-header {
+    background: linear-gradient(to bottom, #FFFFFF 0%, #EDEDED 85%);
+}
+.topbar-outer{
+	background:none;
+}
+.page-description img {
+    max-width: 100%;
+}
+.cms-banner-item .cms-banner-img img {
+    max-width: -webkit-fill-available !important;
+}
+.contact_email a, .contact_email a:hover {
+    overflow-wrap: normal;
+    word-break: break-word;
+}
+@media only screen and (min-width: 1200px)  and (max-width: 1450px) {
+    body .cms-banner-item .cms-banner-img img{
+        max-width: 73% !important;    
+    }
+    body .static-wrapper .static-inner{
+        margin-top: 0;
+    }
+}
+@media only screen and (min-width: 980px)  and (max-width: 1200px) {
+    body .cms-banner-item .cms-banner-img img{
+        max-width: 50% !important;    
+    }
+    body .static-wrapper .static-inner{
+        margin-top: 0;
+    }
+}
+@media only screen and (min-width: 768px)  and (max-width: 980px) {
+    body .cms-banner-item .cms-banner-img img{
+        max-width: 40% !important;    
+    }
+    body .static-wrapper .static-inner{
+        margin-top: 0;
+    }
+}
+@media only screen and (min-width: 360px) {
+    .topbar-link{
+    	width: 100%;
+    }
+    #follow_us{
+    	  float: left;
+        clear: none;
+        display: inline;
+    }
+    .topbar-link .accepted-payment-methods{
+    	  float: right;
+        display: inline;
+        clear: none;
+        padding: 13px 0;
+    	  margin-bottom: 0;
+    }
+}
+@media only screen and (max-width: 640px){
+    .woocommerce-Tabs-panel table {
+        display: inline-table;
+        float: none;
+    }
+}
