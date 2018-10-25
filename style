@@ -1,8 +1,39 @@
 .header-logo img{
     height: 83px;
 }
+body {
+ background-color:#fff;
+}
 .topbar-link .follow-us {
     padding: 21px 0;
+}
+.wpb_column .ids-list .simple-sitemap-page li {
+    list-style: none;
+}
+.simple-sitemap-page li a:before {
+    padding-right: 4px;
+    padding-left: 12px;
+    font: normal normal normal 14px/1 FontAwesome;
+}
+.link .cms-banner-item .cms-banner-inner {
+    position: relative;
+}
+.link.style-1 .link-text {
+    width: 100%;
+    min-height: 244px;
+    float: left;
+}
+.link .static-wrapper {
+  
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+		width: 100%;
+    float: left;
+}
+.side-img .cms-banner-item {
+    padding-bottom: 30px;
 }
 	.woocommerce-product-search select.orderby.hasCustomSelect {
     top: 35px;
@@ -81,22 +112,28 @@ body .text2.static-text{
 }
 .cms-banner-item .cms-banner-img img {
     max-width: -webkit-fill-available !important;
+	    width: 98%;
+	
 }
-
+ul.accepted-payment-methods li.mastercard span {
+    background: url(http://timparker.aicstagingserver.com/wp-content/uploads/2018/10/mastercad.png) no-repeat scroll 0 0 transparent;
+}
+ul.accepted-payment-methods li.paypal span {
+    background: url(http://timparker.aicstagingserver.com/wp-content/uploads/2018/10/pay.png) no-repeat scroll 0 0 transparent;
+}
+ul.accepted-payment-methods li.visa span {
+    background: url(http://timparker.aicstagingserver.com/wp-content/uploads/2018/10/visacard.png) no-repeat scroll 0 0 transparent;
+}
 @media only screen and (min-width: 1200px)  and (max-width: 1450px) {
-	body .side-img .cms-banner-item .cms-banner-img img{
-        max-width: 73% !important;    
-    }
-    
+  
     body .static-wrapper .static-inner{
         margin-top: 0;
     }
 
 }
 @media only screen and (min-width: 980px)  and (max-width: 1200px) {
-	
 	body .side-img .cms-banner-item .cms-banner-img img{
-        max-width: 50% !important;    
+        max-width: 90% !important;    
     }
    
     body .static-wrapper .static-inner{
@@ -104,9 +141,8 @@ body .text2.static-text{
     }
 }
 @media only screen and (min-width: 768px)  and (max-width: 979px) {
-	
 	body .side-img .cms-banner-item .cms-banner-img img{
-        max-width: 40% !important;    
+        max-width: 80% !important;    
     }
    
     body .static-wrapper .static-inner{
